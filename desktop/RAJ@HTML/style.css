@@ -1,0 +1,55 @@
+.container {
+    max-width:1424px;
+  }
+  .heroContent {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  @media screen and (max-width: 768px) {
+    .heroContent {
+        position: absolute;
+        top: 40%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 468px) {
+    .heroContent {
+        height: .5rem;
+        position: relative;
+        top: -10%;
+        right: 0%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+
+  }
+  .btn
+  {;
+      font-size: 13px;
+  }
+  h1
+  {
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+    .heroContent {
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+  }
+}
+  h1
+  {
+color: rgb(15, 117, 38);
+  }
+  .btncustom
+  {
+    background-image: linear-gradient(to right top, #14f288, #50f171, #72f058, #8eee3c, #a8eb12);
+    color: black;
+    border: none;
+    border-radius: 15px;
+  }
